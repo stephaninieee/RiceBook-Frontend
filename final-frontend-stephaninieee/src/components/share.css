@@ -1,0 +1,82 @@
+.share{
+    width : 90%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.54);
+}
+.shareWrapper{
+    padding: 15px
+}
+.shareProfileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top : 10px;
+
+
+}
+.shareTop{
+    display : flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+.shareInput{
+    margin-left: 20px;
+    border:none;
+    width : 80%;
+    padding: 10px 0;
+}
+.shareInput:focus{
+    outline: none;
+}
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top : 20px;
+    
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-left:15px; 
+}
+.shareIcon{
+    font-size : 18px;
+    margin-right: 3px;
+}
+.button{
+   
+    justify-content: flex-end
+
+
+}
+
+.postButton{
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: lightgreen;
+    margin-right: 20px;
+}
+
+.cancelButton{
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: lightcoral; 
+    margin-right: 20px;
+
+}

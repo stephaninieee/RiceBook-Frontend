@@ -1,0 +1,119 @@
+.profile-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+
+.profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #555;
+}
+
+.profile-container img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-container form {
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.input-group > div {
+    width: 48%;
+}
+
+.profile-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+.profile-container input[type="text"],
+.profile-container input[type="email"],
+.profile-container input[type="tel"],
+.profile-container input[type="password"],
+.profile-container input[type="date"],
+.profile-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+}
+.input-group > div:not(:last-child) {
+    margin-right: 2%;  /* 给每一个 div 除了最后一个以外的右边都加上空间 */
+}
+
+
+.profile-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: lightgreen;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-container button:hover {
+    background-color: #2d8a57;
+}
+.profile-container input[type="file"] {
+    display: none;  /* 隐藏默认的文件选择输入框 */
+}
+
+.profile-container label[for="fileInput"] {
+    padding: 10px 15px;
+    background-color: lightgreen;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-container label[for="fileInput"]:hover {
+    background-color: #2d8a57;
+}
+.profile-container input[disabled] {
+    background-color: lightgrey; /* Dark grey color */
+    cursor: not-allowed;
+}
+
+.editTitle,
+.editText {
+    width: 100%; /* 占满容器宽度 */
+    margin-bottom: 10px; /* 在元素之间添加一些间隔 */
+}
+
+.editTitle {
+    height: 50px; /* 或者您希望的高度 */
+}
+
+.editText {
+    height: 150px; /* 或者您希望的高度 */
+}

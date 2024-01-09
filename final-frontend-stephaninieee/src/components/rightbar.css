@@ -1,0 +1,93 @@
+.rightbar {
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+
+.friendList {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px; 
+ 
+}
+
+.friend:hover {
+    background-color: #e6e9ed;
+}
+
+.friendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.friendName {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #555;
+}
+
+.friendHeadline {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+.addFollowerInput {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 14px;
+    outline: none;
+}
+
+.addFollowerButton {
+    width: 80%;
+    padding: 10px;
+    background-color:#42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.addFollowerButton:hover {
+    background-color: #2d8a57;
+}
+
+.unfollowButton {
+    padding: 5px 10px;
+    background-color: #ff4d4d;  /* Red color to signify removal action */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+.unfollowButton:hover {
+    background-color: #cc0000; /* Darker shade of red on hover */
+}
+  

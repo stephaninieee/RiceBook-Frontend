@@ -1,0 +1,134 @@
+.post{
+    width : 90%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.54);
+    margin: 30px 0 
+    
+}
+.listWrappe{
+    padding:10px; 
+
+}
+.postTop{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.editButton{
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: lightgray;
+    margin-right: 20px;
+
+    
+}
+.postTopLeft{
+    display : flex;
+    align-items :center;
+
+}
+.postProfileImg{
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.postUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0  10px;
+
+;}
+.postCenter{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+.postImg{
+    width: 100%; 
+    max-height: 500px ;
+
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    position: relative; 
+  
+}
+.postComment {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.commentsList {
+    margin-top: 15px;
+    width : 100%
+}
+
+.commentItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.commentAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.commentText {
+    flex: 1;
+}
+.commentDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.commenterName {
+    font-weight: bold;
+    margin-bottom: 3px;
+    
+}
+.commentsButton {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.commentsButton:hover {
+    background-color: #e1e1e1;
+}
+
+.stickyButton {
+    position: sticky;
+    bottom: 0;
+    z-index: 1000; 
+    background-color: inherit; 
+    align-self: flex-start;  
+}
+
+
+
