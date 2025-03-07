@@ -33,11 +33,6 @@ Ricebook is a social media web application that allows users to interact through
 - **Friend System**
   - Follow and interact with other users
 
-## Testing
-- **Tested with Jest**
-- **88% line coverage**
-- Includes unit and integration tests for key functionalities
-
 ## Getting Started
 ### How to Use
 1. **Register** to create a new account.
